@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(94, 94, 94);
+}
+#calculadora{
+    width: 295px;
+    height: min-content;
+    background-color: ivory;
+    padding: 15px;
+    border: solid black;
+}
+form{
+    height: min-content;
+    width: min-content;
+    margin: auto;
+}
+#visor{
+    width: 285px;
+    height: 65px;
+    background-color:  rgb(48, 48, 48);
+    color: white;
+    font-size: 23pt;
+    border: solid transparent;
+    text-align: right;
+}
+.botao{
+    height: 57px;
+    width: 65px;
+    font-family: Arial;
+    font-size: 23pt;
+    background-color: rgb(165, 165, 165);
+    margin: 1px;
+    border-radius: 0px;
+    border-radius: 5px;
+    border: solid transparent 10px;
+}
+.linha{
+    padding-left: 8px;
+    padding-top: 8px;
+    margin: auto;
+}
+#quarta{
+    padding-block-end: 7px;
+}
+.att{
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+#igual{
+    background-color: rgb(206, 33, 33);
+}

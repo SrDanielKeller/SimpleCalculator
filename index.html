@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>By Daniel Almeida</title>
+</head>
+<body>
+    <form action="" name="calc">
+
+        <div id="calculadora">
+
+            <input type="text" name="visor" id="visor">
+
+            <br>
+            <br>
+
+            <div id="primeira" class="linha">
+                <input type="button" value="7" class="botao" onclick="botao(value)">
+                <input type="button" value="8" class="botao" onclick="botao(value)">
+                <input type="button" value="9" class="botao" onclick="botao(value)">
+                <input type="button" value="/" class="botao att" onclick="botao(value)">
+            </div>
+
+            <div id="segunda" class="linha">
+                <input type="button" value="4" class="botao" onclick="botao(value)">
+                <input type="button" value="5" class="botao" onclick="botao(value)">
+                <input type="button" value="6" class="botao" onclick="botao(value)">
+                <input type="button" value="*" class="botao att" onclick="botao(value)">
+            </div>
+
+            <div id="terceira" class="linha">
+                <input type="button" value="1" class="botao" onclick="botao(value)">
+                <input type="button" value="2" class="botao" onclick="botao(value)">
+                <input type="button" value="3" class="botao" onclick="botao(value)">
+                <input type="button" value="-" class="botao att" onclick="botao(value)">
+            </div>
+
+            <div id="quarta" class="linha">
+                <input type="button" value="C" class="botao att" onclick="limp()">
+                <input type="button" value="0" class="botao" onclick="botao(value)">
+                <input type="button" value="=" class="botao att" id="igual" onclick="resultado()">
+                <input type="button" value="+" class="botao att" onclick="botao(value)">
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </form>   
+</body>
+</html>
